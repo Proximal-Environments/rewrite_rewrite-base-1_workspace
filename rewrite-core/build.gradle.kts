@@ -32,7 +32,7 @@ dependencies {
 
     testImplementation("org.assertj:assertj-core:latest.release")
     testImplementation("org.junit-pioneer:junit-pioneer:latest.release")
-    testImplementation(project(":rewrite-test"))
+    // testImplementation(project(":rewrite-test")) // removed for RL env
 }
 
 tasks.withType<Javadoc> {
